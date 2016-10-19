@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/bi" />
+
+        <ImageButton
+            android:id="@+id/xiangpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/xiangpi" />
+
+        <ImageButton
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/line" />
+
+        <ImageButton
+            android:id="@+id/yuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/yuan" />
+
+        <ImageButton
+            android:id="@+id/juxing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/juxing" />
+
+        <ImageButton
+            android:id="@+id/yanse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/yanse" />
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/back" />
+
+    </LinearLayout>
+</LinearLayout>

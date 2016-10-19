@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="113dp"
+            android:id="@+id/open_pop_window" />
+
+        <com.cvte.note.view.RichImageView
+            android:id="@+id/MainImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:background="@drawable/real_xiangpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/open_pop_window"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:visibility="gone"
+            android:id="@+id/real_xiang_pi" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
